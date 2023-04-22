@@ -4,6 +4,7 @@ error_reporting(0);
 include('includes/config.php');
 if(isset($_POST['submit10']))
 {
+    // test 
     $pid=intval($_GET['ksid']);
     $useremail=$_SESSION['login'];
     $sophong=$_POST['sophong'];
